@@ -1,1 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
 @import "tailwindcss";
+
+@theme  {
+  --font-nunito: "Nunito", sans-serif; 
+  --font-oswald: "Oswald", sans-serif; 
+  --color-Carbon-Black: #1A2022;
+  --color-Platinum: #EFF1F3;
+  --color-Shamrock: #4C9F70;
+  --color-Turf-Green: #3C7C58;
+  --color-Evergreen: #1B3727;
+  --color-Grey: #a6a6a6;
+}

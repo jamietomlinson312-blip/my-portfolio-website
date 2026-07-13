@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f31ee50d3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+   
+    <main class="grid grid-cols-7">
+        <!-- navigation sidebar -->
+        <section class="h-screen col-start-1 col-end-2 bg-Shamrock text-Platinum">
+            <div class="flex flex-col gap-4 text-center p-4">
+                <h1 class="mb-2 text-2xl font-oswald">Jamie Tomlinson</h1>
+                <img src="./assets/images/WhatsApp Image 2026-07-13 at 15.37.47 (5).png">
+                <p class="text-sm font-nunito font-light">Hi, my name is Jamie Tomlinson and I'm a junior software developer. Welcome to my 
+                    personal website!</p>
+            </div>
+            <div class="mb-4 px-4 py-2 flex gap-4 justify-center border-b-1 border-Turf-Green">
+                <a href="https://www.linkedin.com/in/jamie-tomlinson1" target="blank"><i class="fa-brands fa-square-linkedin" 
+                    style="color:  #EFF1F3;"></i></a> 
+                <a href="https://github.com/jamietomlinson312-blip" target="blank"><i class="fa-brands fa-github" style="color:  #EFF1F3;"></i></a> 
+            </div>
+            <div class="pb-4 flex flex-col items-center text-sm font-nunito font-semibold border-b-1 border-Turf-Green">
+                <nav>
+                    <ul class="flex flex-col gap-2 items-left">
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-circle-user" style="color: #EFF1F3;"></i>
+                            <p class="text-Evergreen">About Me</p>
+                        </li>
+                            <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-briefcase" style="color: #EFF1F3;"></i>
+                            <p>Portfolio</p>
+                        </li>
+                         </li>
+                            <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-file" style="color: #EFF1F3;"></i>
+                            <p>CV</p>
+                        </li>
+                         </li>
+                            <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-address-book" style="color: #EFF1F3;"></i>
+                            <p>Contact</p>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="flex gap-2 items-center bg-Turf-Green rounded-md shadow-md p-2 mt-4">
+                    <i class="fa-solid fa-location-arrow" style="color: #1B3727;"></i>
+                    <button class="">Hire Me</button>
+                </div>
+        </section>
+
+        <!-- Main body section -->
+        <section class="col-start-2 col-end-8 bg-Platinum">
+            <div class="p-8 flex flex-col max-w-1/2 gap-4">
+                <h1 class="font-oswald text-3xl">Jamie Tomlinson</h1>
+                <h2 class="font-oswald text-xl font-light">Junior Software Developer</h2>
+                <p class="font-nunito text-base font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in purus vitae elit gravida laoreet id tristique lectus. Phasellus tristique finibus ante nec varius. Maecenas vitae elit vestibulum, commodo nisi a, pellentesque lectus. </p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
