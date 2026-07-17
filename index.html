@@ -7,11 +7,11 @@
     <link href="./src/output.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0f31ee50d3.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bg-Platinum">
    
     <main class="grid grid-cols-7">
         <!-- navigation sidebar -->
-        <section class="h-screen col-start-1 col-end-2 bg-Shamrock text-Platinum">
+        <section class="fixed w-1/7 h-full bg-Shamrock text-Platinum">
             <div class="flex flex-col gap-4 text-center p-4">
                 <h1 class="mb-2 text-2xl font-oswald">Jamie Tomlinson</h1>
                 <img src="./assets/images/WhatsApp Image 2026-07-13 at 15.37.47 (5).png">
@@ -32,7 +32,7 @@
                         </li>
                             <li class="flex gap-2 items-center">
                             <i class="fa-solid fa-briefcase" style="color: #EFF1F3;"></i>
-                            <p>Portfolio</p>
+                            <a href="portfolio.html">Portfolio</a>
                         </li>
                          </li>
                             <li class="flex gap-2 items-center">
@@ -47,19 +47,86 @@
                     </ul>
                 </nav>
                 <div class="flex gap-2 items-center bg-Turf-Green rounded-md shadow-md p-2 mt-4">
-                    <i class="fa-solid fa-location-arrow" style="color: #1B3727;"></i>
+                    <i class="fa-solid fa-location-arrow" style="color: #EFF1F3;"></i>
                     <button class="">Hire Me</button>
                 </div>
         </section>
 
-        <!-- Main body section -->
-        <section class="col-start-2 col-end-8 bg-Platinum">
-            <div class="p-8 flex flex-col max-w-1/2 gap-4">
-                <h1 class="font-oswald text-3xl">Jamie Tomlinson</h1>
-                <h2 class="font-oswald text-xl font-light">Junior Software Developer</h2>
-                <p class="font-nunito text-base font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in purus vitae elit gravida laoreet id tristique lectus. Phasellus tristique finibus ante nec varius. Maecenas vitae elit vestibulum, commodo nisi a, pellentesque lectus. </p>
+        <!-- Bio section -->
+        <section class="col-start-2 col-end-5 font-nunito">
+            <div class="p-8 flex flex-col gap-4">
+                <div class="border-l-4 pl-4 border-Turf-Green">
+                    <h1 class="font-oswald text-3xl mb-4">Jamie Tomlinson</h1>
+                    <h2 class="font-oswald text-xl font-light">Junior Software Developer</h2>
+                </div>
+               
+                <p class="text-base font-light pl-4">I'm a junior software developer transitioning from a career in synthetic chemistry 
+                    and drug discovery, bringing 10 years' experience solving complex scientific problems within multi-disciplinary 
+                    research teams. My background has given me strong analytical thinking, attention to detail, and the ability to tackle 
+                    challenging problems systematically; skills that translate naturally to software development.</p>
+                <div class="flex justify-center gap-4 text-sm font-medium mb-4">
+                    <a href="./portfolio.html" class="bg-Shamrock rounded-md shadow-md p-2 text-Platinum font-semibold">View Portfolio</a>
+                    <button class="bg-Shamrock rounded-md shadow-md p-2 text-Platinum font-semibold">View CV</button>
+                </div>
+
+                <div class="border-l-4 pl-4 border-Turf-Green">
+                    <h1 class="font-oswald text-3xl mb-4">About Me</h1>
+                    <p class="text-base font-light">Throughout my career, I've led the design of synthetic routes, collaborated with global research partners, 
+                    contributed to patented drug discovery programmes, and communicated complex ideas across scientific 
+                    disciplines. This experience has given me a practical, deep understanding of data-driven decision making, experimentation, 
+                    and working on projects where quality, accuracy, and collaboration are essential.<br><br>
+
+                    I'm now applying these strengths while building expertise in modern software development, with hands-on experience in <mark>
+                    HTML, CSS, JavaScript, Tailwind CSS, Python, Git, and GitHub through personal projects and continuous learning.</mark> My 
+                    long-term goal is to combine my scientific background with software engineering to build tools and applications that 
+                    support research, healthcare, biotechnology, and other data-intensive fields.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Profile image -->
+        <section class="col-start-5 col-end-8">
+            <div class="p-8 flex justify-center">
+                <img src="./assets/images/WhatsApp Image 2026-07-13 at 15.37.47 (1).jpeg" class="shadow-md max-h-180">
             </div>
         </section>
     </main>
+
+    <!-- Coding skills section -->
+        
+    <section class="max-w-3/4 ml-80 grid grid-cols-3 gap-8 mt-5 p-12 font-nunito">
+        
+        <div class="flex flex-col gap-3 ">
+            <div>
+                <i class="fa-brands fa-html5" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-css" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-tailwind-css" style="color: rgb(0, 0, 0);"></i>
+            </div>
+            <h3 class="text-base font-bold">HTML & CSS</h3>
+            <p class="text-base font-light">Description of skills in html and css to go here....</p>
+        </div>
+
+         <div class="flex flex-col gap-3 ">
+            <div>
+                <i class="fa-brands fa-html5" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-css" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-tailwind-css" style="color: rgb(0, 0, 0);"></i>
+            </div>
+            <h3 class="text-base font-bold">TBC</h3>
+            <p class="text-base font-light">Description of skills in html and css to go here....</p>
+        </div>
+
+         <div class="flex flex-col gap-3 ">
+            <div>
+                <i class="fa-brands fa-html5" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-css" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-tailwind-css" style="color: rgb(0, 0, 0);"></i>
+            </div>
+            <h3 class="text-base font-bold">TBC</h3>
+            <p class="text-base font-light">Description of skills in html and css to go here....</p>
+        </div>
+          
+    </section>
 </body>
 </html>
