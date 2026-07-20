@@ -219,8 +219,8 @@
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
-  .ml-80 {
-    margin-left: calc(var(--spacing) * 80);
+  .mb-10 {
+    margin-bottom: calc(var(--spacing) * 10);
   }
   .flex {
     display: flex;
@@ -242,9 +242,6 @@
   }
   .max-w-1\/2 {
     max-width: calc(1 / 2 * 100%);
-  }
-  .max-w-3\/4 {
-    max-width: calc(3 / 4 * 100%);
   }
   .max-w-9\/10 {
     max-width: calc(9 / 10 * 100%);
@@ -320,9 +317,6 @@
   }
   .p-8 {
     padding: calc(var(--spacing) * 8);
-  }
-  .p-12 {
-    padding: calc(var(--spacing) * 12);
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
@@ -412,6 +406,13 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-Turf-Green);
+      }
+    }
+  }
+  .hover\:text-Evergreen {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-Evergreen);
       }
     }
   }
